@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center; /* Горизонтальное центрирование */
+    align-items: center;    /* Вертикальное центрирование */
+    height: 100vh;          /* Высота экрана */
+    margin: 0;              /* Убираем отступы */
+    background-color: #131f24;
+}
+
+.input-container {
+    width: 300px;
+}
+
+.styled-input {
+    width: 100%;
+    padding: 10px 15px;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    margin-top: 10px;
+    font-size: 16px;
+    outline: none;
+    margin-left: -15px; /* Смещает поле ввода влево */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.styled-input:focus {
+    border-color: #7eb24d;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+}
+
+.styled-input::placeholder {
+    color: #aaa;
+    font-style: italic;
+}
+.styledbutton-input {
+    width: 100%;
+    padding: 10px 15px;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    margin-top: 10px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.styledbutton-input::placeholder {
+    color: #aaa;
+    font-style: italic;
+}
+.logo {
+    font-family: 'Lemon', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    }
+    .cat {
+      color: #7eb24d; /* зелёный, можно изменить по вкусу */
+    }
+    .lish {
+        color: white; /* почти чёрный */
+        
+}
